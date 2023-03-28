@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Interpolation/Newton/Backward/Backward.iml" filepath="$PROJECT_DIR$/Interpolation/Newton/Backward/Backward.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HPT/Crammer/Crammer.iml" filepath="$PROJECT_DIR$/HPT/Crammer/Crammer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpolation/Newton/Forward/Forward.iml" filepath="$PROJECT_DIR$/Interpolation/Newton/Forward/Forward.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HPT/Gauss/Gauss.iml" filepath="$PROJECT_DIR$/HPT/Gauss/Gauss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HPT/GaussSeidel/GaussSeidel.iml" filepath="$PROJECT_DIR$/HPT/GaussSeidel/GaussSeidel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpolation/Interpolation.iml" filepath="$PROJECT_DIR$/Interpolation/Interpolation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HPT/Jacobi/Jacobi.iml" filepath="$PROJECT_DIR$/HPT/Jacobi/Jacobi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpolation/Lagrange/Lagrange.iml" filepath="$PROJECT_DIR$/Interpolation/Lagrange/Lagrange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpolation/Newton/Newton.iml" filepath="$PROJECT_DIR$/Interpolation/Newton/Newton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PPT.iml" filepath="$PROJECT_DIR$/PPT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interpolation/Spline/Spline.iml" filepath="$PROJECT_DIR$/Interpolation/Spline/Spline.iml" />
+    </modules>
+  </component>
+</project>

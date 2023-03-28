@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Crammer/Crammer.iml" filepath="$PROJECT_DIR$/Crammer/Crammer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gauss/Gauss.iml" filepath="$PROJECT_DIR$/Gauss/Gauss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GaussSeidel/GaussSeidel.iml" filepath="$PROJECT_DIR$/GaussSeidel/GaussSeidel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/HPT.iml" filepath="$PROJECT_DIR$/.idea/HPT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jacobi/Jacobi.iml" filepath="$PROJECT_DIR$/Jacobi/Jacobi.iml" />
+    </modules>
+  </component>
+</project>
