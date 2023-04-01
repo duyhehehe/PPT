@@ -16,7 +16,7 @@ public class Main {
             double temp = x1 - h;
             x0 = x1;
             x1 = temp;
-            h = h = (function(x1) * (x1 - x0)) / (function(x1) - function(x0));
+            h = (function(x1) * (x1 - x0)) / (function(x1) - function(x0));
             ++i;
         }
         System.out.println("Nghiem gan dung la: " + Math.round(x0 * 10000.0) / 10000.0);
