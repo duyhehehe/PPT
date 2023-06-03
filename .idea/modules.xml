@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Interpolation.iml" filepath="$PROJECT_DIR$/Interpolation/Interpolation.iml" />
       <module fileurl="file://$PROJECT_DIR$/HPT/Jacobi/Jacobi.iml" filepath="$PROJECT_DIR$/HPT/Jacobi/Jacobi.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Lagrange/Lagrange.iml" filepath="$PROJECT_DIR$/Interpolation/Lagrange/Lagrange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeastSquaresApproximation/LeastSquaresApproximation.iml" filepath="$PROJECT_DIR$/LeastSquaresApproximation/LeastSquaresApproximation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Newton/Newton.iml" filepath="$PROJECT_DIR$/Interpolation/Newton/Newton.iml" />
       <module fileurl="file://$PROJECT_DIR$/PPT.iml" filepath="$PROJECT_DIR$/PPT.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Spline/Spline.iml" filepath="$PROJECT_DIR$/Interpolation/Spline/Spline.iml" />
