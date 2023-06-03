@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Newton/Forward/Forward.iml" filepath="$PROJECT_DIR$/Interpolation/Newton/Forward/Forward.iml" />
       <module fileurl="file://$PROJECT_DIR$/HPT/Gauss/Gauss.iml" filepath="$PROJECT_DIR$/HPT/Gauss/Gauss.iml" />
       <module fileurl="file://$PROJECT_DIR$/HPT/GaussSeidel/GaussSeidel.iml" filepath="$PROJECT_DIR$/HPT/GaussSeidel/GaussSeidel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntergralApproximation/IntergralApproximation.iml" filepath="$PROJECT_DIR$/IntergralApproximation/IntergralApproximation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Interpolation.iml" filepath="$PROJECT_DIR$/Interpolation/Interpolation.iml" />
       <module fileurl="file://$PROJECT_DIR$/HPT/Jacobi/Jacobi.iml" filepath="$PROJECT_DIR$/HPT/Jacobi/Jacobi.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Lagrange/Lagrange.iml" filepath="$PROJECT_DIR$/Interpolation/Lagrange/Lagrange.iml" />

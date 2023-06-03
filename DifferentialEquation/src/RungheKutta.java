@@ -14,13 +14,14 @@ public class RungheKutta {
 
     public static double function(double x, double y) {
         return 2 * x * y;
+        //xấp xỉ tích phân
     }
 
     public static void main(String[] args) {
         // f(x, y) = 2 * x * y
         double x = 1;
         double y = 1;
-        int n = 2; // Số lần lặp
+        int n = 10; // Số lần lặp
         double h = 0.1;
         System.out.println(rungheKutta(x, y, h, n));
     }
