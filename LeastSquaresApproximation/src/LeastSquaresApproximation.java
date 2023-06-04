@@ -1,11 +1,11 @@
 public class LeastSquaresApproximation {
     public static void main(String[] args) {
-        // Dữ liệu đầu vào (ví dụ: dữ liệu y = f(x) = x^2 + 2x + 3)
+        // Dữ liệu đầu vào (ví dụ: dữ liệu y = f(x) = 2x + 1)
         double[] xData = {1, 2, 3, 4, 5};
-        double[] yData = {6, 11, 18, 27, 38};
+        double[] yData = {3, 5, 7, 9, 11};
 
         // Bậc của hàm số
-        int degree = 4;
+        int degree = 2;
 
         // Tính xấp xỉ hàm số
         double[] coefficients = leastSquaresApproximation(xData, yData, degree);
@@ -18,6 +18,11 @@ public class LeastSquaresApproximation {
                 System.out.print(" + ");
             }
         }
+
+        // Đánh giá sai số
+        double[] yApprox = evaluateApproximation(xData, coefficients);
+        double error = calculateError(yData, yApprox);
+        System.out.println("\nSai số: " + error);
     }
 
     public static double[] leastSquaresApproximation(double[] xData, double[] yData, int degree) {
@@ -134,5 +139,38 @@ public class LeastSquaresApproximation {
         }
 
         return multiply;
+    }
+
+    public static double[] evaluateApproximation(double[] xData, double[] coefficients) {
+        int n = xData.length;
+        double[] yApprox = new double[n];
+
+        for (int i = 0; i < n; i++) {
+            double x = xData[i];
+            double y = 0.0;
+
+            for (int j = 0; j < coefficients.length; j++) {
+                y += coefficients[j] * Math.pow(x, coefficients.length - j - 1);
+            }
+
+            yApprox[i] = y;
+        }
+
+        return yApprox;
+    }
+
+    public static double calculateError(double[] yData, double[] yApprox) {
+        int n = yData.length;
+        double sumSquaredError = 0.0;
+
+        for (int i = 0; i < n; i++) {
+            double error = yData[i] - yApprox[i];
+            sumSquaredError += error * error;
+        }
+
+        double meanSquaredError = sumSquaredError / n;
+        double rootMeanSquaredError = Math.sqrt(meanSquaredError);
+
+        return rootMeanSquaredError;
     }
 }

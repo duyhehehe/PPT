@@ -11,12 +11,22 @@ public class Euler {
         return 2 * x * y;
     }
 
+    public static double yAbsolute(double x) {
+        return Math.exp(x * x - 1);
+        // Hàm y chính xác
+    }
+
     public static void main(String[] args) {
         // f(x, y) = 2 * x * y
         double x = 1;
         double y = 1;
         int n = 20; // Số lần lặp
         double h = 0.01;
-        System.out.println(euler(x, y, h, n));
+        double euler = euler(x, y, h, n);
+        double euler_half = euler(x, y, h / 2, n * 2);
+        double yAbsolute = yAbsolute(x + n * h);
+        double absoluteError = Math.abs(yAbsolute - euler);
+        System.out.println("Xấp xỉ vi phân: " + euler);
+        System.out.printf("Sai số tuyệt đối: " + absoluteError);
     }
 }

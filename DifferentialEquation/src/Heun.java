@@ -13,12 +13,22 @@ public class Heun {
         return 2 * x * y;
     }
 
+    public static double yAbsolute(double x) {
+        return Math.exp(x * x - 1);
+        // Hàm y chính xác
+    }
+
     public static void main(String[] args) {
         // f(x, y) = 2 * x * y
         double x = 1;
         double y = 1;
-        int n = 2; // Số lần lặp
+        int n = 10; // Số bước
         double h = 0.1;
-        System.out.println(heun(x, y, h, n));
+        double heun = heun(x, y, h, n);
+        double heun_half = heun(x, y, h / 2, n * 2);
+        double yAbsolute = yAbsolute(x + n * h);
+        double absoluteError = Math.abs(heun - yAbsolute);
+        System.out.println("Xấp xỉ vi phân: " + heun);
+        System.out.printf("Sai số tuyệt đối: " + absoluteError);
     }
 }

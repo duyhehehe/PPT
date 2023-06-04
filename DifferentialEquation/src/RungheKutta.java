@@ -14,15 +14,24 @@ public class RungheKutta {
 
     public static double function(double x, double y) {
         return 2 * x * y;
-        //xấp xỉ tích phân
+    }
+
+    public static double yAbsolute(double x) {
+        return Math.exp(x * x - 1);
+        // Hàm y chính xác
     }
 
     public static void main(String[] args) {
         // f(x, y) = 2 * x * y
         double x = 1;
         double y = 1;
-        int n = 10; // Số lần lặp
+        int n = 10; // Số bước
         double h = 0.1;
-        System.out.println(rungheKutta(x, y, h, n));
+        double RK = rungheKutta(x, y, h, n);
+        double RK_half = rungheKutta(x, y, h / 2, n * 2);
+        double yAbsolute = yAbsolute(x + n * h);
+        double absoluteError = Math.abs(yAbsolute - RK);
+        System.out.println("Giá trị xấp xỉ vi phân: " + RK);
+        System.out.println("Sai số tuyệt đối: " + absoluteError);
     }
 }
