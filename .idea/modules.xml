@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/LeastSquaresApproximation/LeastSquaresApproximation.iml" filepath="$PROJECT_DIR$/LeastSquaresApproximation/LeastSquaresApproximation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Newton/Newton.iml" filepath="$PROJECT_DIR$/Interpolation/Newton/Newton.iml" />
       <module fileurl="file://$PROJECT_DIR$/PPT.iml" filepath="$PROJECT_DIR$/PPT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PowerIterationMethod/PowerIterationMethod.iml" filepath="$PROJECT_DIR$/PowerIterationMethod/PowerIterationMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interpolation/Spline/Spline.iml" filepath="$PROJECT_DIR$/Interpolation/Spline/Spline.iml" />
     </modules>
   </component>

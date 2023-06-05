@@ -13,7 +13,7 @@ public class Client {
         int n = sc.nextInt();
         for (int i = 0; i <= n; ++i) {
             x = Math.cbrt(4 * x + 7);
-            System.out.println("Lan " + i + ":");
+            System.out.println("Lần " + i + ":");
             System.out.println("x" + i + " = " + x);
         }
     }
